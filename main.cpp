@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "pcap.h"
+#include <pcap.h>
 using namespace std;
 
 int main()
@@ -13,6 +13,6 @@ int main()
             << "Make sure that Npcap is installed, and that the npcap service is"
             << " running." << endl;
     } else {
-        cout << "Npcap installation detected. "
+        cout << "Npcap installation detected. " << endl;
     }
 }
